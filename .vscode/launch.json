@@ -8,7 +8,7 @@
             "name": "Python: Current File",
             "type": "python",
             "request": "launch",
-            "program": "nvidia_update_minimiser.py",
+            "program": "${workspaceFolder}/src/nvidia_update_minimiser.py",
             "console": "externalTerminal",
             "justMyCode": false
         }
