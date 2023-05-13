@@ -1,7 +1,8 @@
-import os, os.path
+""" Remove unnecessary bloat and telemetry from the Nvidia driver experience """
 
 
 def nvidia_update_minimiser():
+    """Remove unnecessary bloat and telemetry from the Nvidia driver experience"""
     print("Hello World")
 
 
