@@ -5,12 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Python: Current File",
-            "type": "python",
+            "name": "Python: Debug Program",
+            "type": "debugpy",
             "request": "launch",
-            "program": "nvidia_update_minimiser.py",
-            "console": "externalTerminal",
-            "justMyCode": false
+            "program": "src/nvidia_update_minimiser.py",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "justMyCode": true
         }
     ]
 }
