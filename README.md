@@ -6,7 +6,7 @@
 [![Pylint](https://github.com/Voltstriker/nvidia-update-minimiser/actions/workflows/pylint.yml/badge.svg)](https://github.com/Voltstriker/nvidia-update-minimiser/actions/workflows/pylint.yml)
 ![GitHub](https://img.shields.io/github/license/voltstriker/nvidia-update-minimiser)
 
-This project is aimed to remove unnecessary bloat and telemetry from the Nvidia driver experience
+This project is aimed to cut down Nvidia drivers to a bare minimum driver installation, doing away with content that simply isn't required to function.
 
 ## Contributions
 
