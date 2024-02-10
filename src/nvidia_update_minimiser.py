@@ -185,12 +185,14 @@ def nvidia_update_minimiser():
     print("     Nvidia Driver Update Minimiser      ")
     print("=========================================")
 
+    # request the location of the Nvidia driver downloaded from the website from the user
     driver_location = user_utils.get_user_response_path(
         "\nEnter the location of the Nvidia driver that has been downloaded..",
         "File Path: ",
         "Error: Unable to find the driver at the path specified!",
     )
 
+    # define a working directory within the user's temp files folder
     uid = str(uuid.uuid4())
     working_directory = os.path.join(
         tempfile.gettempdir(), "NvidiaUpdateMinimiser", uid
