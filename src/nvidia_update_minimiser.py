@@ -239,7 +239,7 @@ def nvidia_update_minimiser():
             print("\nCleaning up the working directory used..")
             rmtree(working_directory)
 
-    except Exception as ex:
+    except Exception as ex:  # pylint: disable=broad-exception-caught
         print(f"Something went wrong: {ex}")
 
 
